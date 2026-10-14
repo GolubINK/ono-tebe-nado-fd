@@ -1,1 +1,129 @@
-/* место для вашего кода */
+header {
+  display: grid;
+  grid-template-columns: 1fr min-content 1fr;
+  align-items:center;
+  padding: 92px 50px 96px;
+  height: 293px;
+  font-size: 18px;
+  text-underline-offset: 4px;
+  text-decoration-skip-ink: none;
+}
+
+main {
+  background-color: bisque;
+}
+
+.footer {
+  margin-top: 180px;
+  min-height: 180px;
+  background-color: gray;
+}
+
+.header__links-list {
+  list-style: circle;
+  display: flex;
+  gap: 32.5px;
+}
+
+.header__links-list-item_no-bullit {
+  list-style: none;
+}
+
+.header__link { 
+  text-underline-offset: 4px;
+}
+
+.header__link_active {
+  text-decoration: none;
+}
+
+.header__logo {
+  width: 137px;
+  height: 105px;
+}
+
+.address {
+  max-width: 240px;
+  font-style: normal;
+  line-height: 24.3px;
+}
+
+.header__address {
+  display: flex;
+  flex-direction: column;
+  justify-self: end;
+  align-items: flex-start;
+  padding-right: 36px;
+}
+
+.cover {
+  position: relative;
+  min-height: 757px;
+  background-image: url(../images/cover.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  margin-bottom: 180px;
+  z-index: 0;
+  color: #fff;
+}
+
+.overlay {
+  position: absolute;
+  inset: 0;
+  background-color: rgb(0 0 0 / 0.6);
+  z-index: -1;
+}
+
+.cover__title {
+  display: flex;
+  flex-direction: column;
+  text-transform: uppercase;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  font-size: 100px;
+  letter-spacing: 30%;
+}
+
+.cover__title-it {
+  padding: 165px 735px 0 50px;
+}
+
+.cover__title-you {
+  padding: 18px 351.5px 0 380.5px;
+}
+
+.cover__title-need {
+  padding: 18px 19px 106px 663px;
+}
+
+.cover__description {
+  padding: 0;
+  text-transform: uppercase;
+  font-size: 22px;
+}
+
+.cover__description-subline {
+  padding: 0 102px 0 50px;
+  word-spacing: 18.5px;
+}
+
+.bet-button {
+  width: 256px;
+  height: 50px;
+  color: #fff;
+  text-transform: uppercase;
+  background-color: transparent;
+  border: 1px solid #fff;
+}
+
+.lots {
+  margin: 0 24px 155px;
+  background-color: rgb(84, 90, 81);
+}
+
+.about {
+  margin: 0 24px;
+  background-color: rgb(114, 134, 102);
+}
