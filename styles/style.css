@@ -2,7 +2,6 @@
   display: grid;
   grid-template-columns: 1fr min-content 1fr;
   align-items: center;
-  height: 293px;
   padding: 92px 50px 96px;
   font-size: 18px;
   text-decoration-skip-ink: none;
@@ -71,15 +70,15 @@
   text-transform: uppercase;
 }
 
-.cover__title-it {
+.cover__title-left {
   padding: 165px 735px 0 50px;
 }
 
-.cover__title-you {
+.cover__title-center {
   padding: 18px 351.5px 0 380.5px;
 }
 
-.cover__title-need {
+.cover__title-right {
   padding: 17px 19px 105px 663px;
 }
 
@@ -95,7 +94,7 @@
 
 .bet-button {
   width: 256px;
-  height: 51px;
+  min-height: 51px;
   border: 1px solid #fff;
   color: #fff;
   text-transform: uppercase;
@@ -219,8 +218,7 @@
 .footer {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  min-height: 180px;
-  margin: 181px 50px 0;
+  padding: 181px 50px 82px;
   font-size: 18px;
   text-underline-offset: 4px;
 }
