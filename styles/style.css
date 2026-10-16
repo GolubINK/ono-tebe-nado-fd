@@ -11,7 +11,7 @@
 
 .header__links-list {
   display: flex;
-  gap: 32.5px;
+  gap: 32.6px;
   list-style: circle;
 }
 
@@ -38,7 +38,7 @@
 
 .header__address {
   justify-self: end;
-  padding-right: 36px;
+  padding-right: 37px;
 }
 
 .cover {
@@ -89,7 +89,7 @@
 }
 
 .cover__description-subline {
-  padding: 0 102px 0 50px;
+  padding: 0 83px 0 50px;
   word-spacing: 18.5px;
 }
 
@@ -220,7 +220,7 @@
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   min-height: 180px;
-  margin: 182px 50px 0;
+  margin: 181px 50px 0;
   font-size: 18px;
   text-underline-offset: 4px;
 }
